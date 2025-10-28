@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => { chatContainer.style.transform = "translateY(0) scale(1)"; }, 50);
     userInput.focus();
     if (chatBox.children.length === 0)
-      showBotMessage("👋 Hi — I'm the DevBay Assistant. Ask me anything about DevBay!");
+      showBotMessage("👋 Hi — I'm the Devbay Assistant. Ask me anything about Devbay!");
   };
 
   const closeChat = () => chatContainer.classList.remove("chat-visible");
