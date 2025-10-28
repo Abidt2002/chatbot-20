@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const CSV_FILENAME = "DevBay_Chatbot_QA.csv"; // place in same folder
+  const CSV_FILENAME = "DevBay Chatbot QA.csv"; // place in same folder
   let qaData = [];
 
   const chatIcon = document.getElementById("chat-icon");
